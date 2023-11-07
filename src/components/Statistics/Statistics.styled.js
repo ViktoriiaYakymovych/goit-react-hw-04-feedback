@@ -1,15 +1,8 @@
-import styled from '@emotion/styled';
+import styled from "styled-components";
 
-export const StatisticContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-`;
-
-export const StatisticDiv = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-`;
+export const StatisticsWrapper = styled.div`
+display: flex;
+flex-direction: column;
+gap: 8px;
+margin-top: 16px;
+`
